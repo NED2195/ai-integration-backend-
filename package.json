@@ -1,12 +1,8 @@
 {
   "name": "ai-integration-backend",
   "version": "1.0.0",
-  "main": "api/server.js",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.18.1",
-    "axios": "^1.1.3",
-    "openai": "^3.0.0",
-    "twilio": "^3.66.0"
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
   }
 }
